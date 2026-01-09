@@ -7,7 +7,7 @@
           "id": "bng_hosp_01",
           "name": "City Hospital",
           "currentNumber": 42,
-          "waiting": 5,
+          "waiting": 6,
           "formLink": "https://forms.gle/Example1"
         }
       ]
