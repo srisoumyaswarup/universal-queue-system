@@ -1,0 +1,10 @@
+:root { --primary: #2563eb; --bg: #f8fafc; --text: #0f172a; }
+body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); margin: 0; }
+.hero { background: white; padding: 4rem 1rem; text-align: center; border-bottom: 1px solid #e2e8f0; }
+.search-container { max-width: 500px; margin: 2rem auto; display: flex; gap: 10px; }
+input { flex: 1; padding: 12px 20px; border-radius: 99px; border: 1px solid #cbd5e1; outline: none; }
+button { background: var(--primary); color: white; border: none; padding: 12px 25px; border-radius: 99px; cursor: pointer; font-weight: 600; }
+.results-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 2rem; max-width: 1200px; margin: auto; }
+.card { background: white; padding: 1.5rem; border-radius: 20px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); text-align: center; }
+.number { font-size: 3.5rem; font-weight: 800; color: var(--primary); margin: 1rem 0; }
+.book-btn { display: inline-block; width: 100%; padding: 10px; background: #f1f5f9; color: var(--primary); text-decoration: none; border-radius: 10px; font-weight: 600; margin-top: 10px; }

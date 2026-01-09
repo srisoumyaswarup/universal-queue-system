@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "name": "Bengaluru",
+      "places": [
+        {
+          "id": "bng_hosp_01",
+          "name": "City Hospital",
+          "currentNumber": 42,
+          "waiting": 5,
+          "formLink": "https://forms.gle/Example1"
+        }
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "places": [
+        {
+          "id": "mum_clinic_01",
+          "name": "Metro Clinic",
+          "currentNumber": 12,
+          "waiting": 3,
+          "formLink": "https://forms.gle/Example2"
+        }
+      ]
+    }
+  ]
+}
